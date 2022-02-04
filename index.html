@@ -7,6 +7,7 @@
     <link rel="icon" href="img/food/food4.png">
     
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="screen and (max-width : 1260px)" href="css/phoneStyle.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,7 +85,7 @@
 <section class="contact">
     <h1 class="heading center black" >CONTATCT US</h1>
     <form action="mailto:subhamdassneha@gmail.com"  class="contact-form">
-        <div>
+        <div class="name flex-column">
             <label for="fname">
                  First Name
             </label>
@@ -94,18 +95,18 @@
             </label>
             <input type="text" id="lname" class="inputs" required>
         </div>
-        <div>
+        <div class="flex-column">
             <label for="num">Contact Number</label>
             <input type="tel" id="num" class="inputs" required>
         </div>
 
-        <div>
+        <div class="flex-column">
             <label for="email">
                 Email
             </label>
             <input type="email" name="Email" id="email" placeholder="abc@xyz.com" class="inputs" required>
         </div>
-        <div>
+        <div class="flex-column">
             <label for="msg">Your Message</label>
             <textarea name="Your Message" id="msg" cols="75" rows="1" required></textarea>
         </div>
