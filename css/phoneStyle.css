@@ -1,0 +1,154 @@
+/* Navigation */
+
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+}
+.logo{
+    width: 10%;
+
+}
+
+.nav-links{
+   color: black;
+   background-color: rgba(255,255,255,0.25);
+   padding: 0.5rem;
+   margin: 0 0.5rem;
+   font-size: 0.9rem;
+}
+.nav-links-end{
+    padding: 0.75rem;
+    font-size: 0.9rem;
+}
+.nav-links-end-signup{
+    padding: 0.75rem;
+    font-size: 0.9rem;
+}
+.nav-items-end{
+    margin: 0;
+    justify-content: flex-start;
+}
+
+@media(max-width:400px){
+   .nav-links{
+       padding: 0.5rem;
+       font-size: 0.6rem;
+       margin: 0rem 0.1rem;
+   } 
+   .nav-links-end{
+        padding: 0.5rem;
+        font-size: 0.6rem;
+        margin: 0rem 0.5rem;
+    }
+    .nav-links-end-signup{
+        padding: 0.5rem;
+        font-size: 0.6rem;
+        margin: 0rem 0.5rem;
+    }
+}
+
+
+
+
+/* Home */
+.home{
+    padding: 0 2rem;
+
+}
+.search{
+    flex-direction: column;
+}
+
+.Searchbar{
+    display: inline;
+    width: 100%;
+}
+/* Services */
+
+.services{
+    flex-direction: column;
+    
+}
+.box{
+    width: 75%;
+    padding:2% 25%;
+}
+
+
+
+/* Contact us */
+.contact{
+    overflow: hidden;
+}
+.contact::before{
+    height: 100%;
+}
+.inputs{
+    width: 70%;
+    margin: 0.5rem;
+}
+textarea{
+    width: 75%;
+}
+
+label{
+    align-self: center;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 100%;
+}
+
+.email{
+    align-self: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+    
+  
+  
+    .contact-form div:first-child label:first-child{
+        margin:0 1rem;
+    }
+    
+    
+    
+    #email{
+        align-self: center;
+        margin: 0.5rem;
+    }
+    #msg{
+        margin: 0.5rem;
+    }
+    textarea{
+        margin-left: 1.25rem;
+        padding: 0.5rem 0.5rem;
+    }
+/* Footer */
+.foot-head{
+    margin: 0.5rem;
+}
+/* Utility */
+
+.heading{
+    font-size: 2rem;
+}
+
+.text{
+    font-size: 0.5rem;
+}
+
+.secondary-heading{
+    font-size: 0.75rem;
+}
