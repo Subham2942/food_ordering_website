@@ -139,6 +139,24 @@ label{
 .foot-head{
     margin: 0.5rem;
 }
+.left{
+    width: 40%;
+}
+
+.middle{
+    font-size: 0.75rem;
+    width: 60%;
+    margin: 0;
+    text-align: center;
+}
+
+.right span{
+    margin: 0 0.7rem;
+}
+.right img{
+    width: 4%;
+
+}
 /* Utility */
 
 .heading{
@@ -152,3 +170,4 @@ label{
 .secondary-heading{
     font-size: 0.75rem;
 }
+
