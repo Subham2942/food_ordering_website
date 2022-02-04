@@ -261,6 +261,7 @@ body{
     font-weight: 500;
     margin: 0 2rem;
     text-align: left;
+    color:white;
 }
 .contact-form div:first-child label:first-child{
     margin:0 3.4rem;
